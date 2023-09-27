@@ -14,16 +14,16 @@ namespace PROYECTO_LIBRARY_PRIMARY.Models
 
         public int Id { get; set; }
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
-        public string Descripcion { get; set; }
+        public string? Descripcion { get; set; }
 
         public Decimal Precio { get; set; }
 
         public Decimal PorcentajeDescuento { get; set; }
 
-        public String ImageName { get; set; }
+        public String? ImageName { get; set; }
 
-        public String Status { get; set; }
+        public String? Status { get; set; }
     }
 }

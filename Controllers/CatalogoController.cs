@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using PROYECTO_LIBRARY_PRIMARY.Data;
+using PROYECTO_LIBRARY_PRIMARY.Models;
 
 
 namespace PROYECTO_LIBRARY_PRIMARY.Controllers
@@ -27,6 +28,8 @@ namespace PROYECTO_LIBRARY_PRIMARY.Controllers
             var productos = from o in _context.DataProductos select o;
             return View(productos.ToList());
         }
+
+        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

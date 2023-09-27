@@ -288,6 +288,7 @@ namespace PROYECTO_LIBRARY_PRIMARY.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("t_contacto");
+                });
             modelBuilder.Entity("PROYECTO_LIBRARY_PRIMARY.Models.Producto", b =>
                 {
                     b.Property<int>("Id")
@@ -418,7 +419,7 @@ namespace PROYECTO_LIBRARY_PRIMARY.Data.Migrations
 }
 
 }
-}
+
 
 
 

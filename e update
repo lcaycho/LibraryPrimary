@@ -1,0 +1,19 @@
+[33mcommit ed597c2acd0a5f42a5e036bbee192c076719d5b5[m[33m ([m[1;36mHEAD -> [m[1;32m1-registro-para-no-cliente[m[33m, [m[1;31morigin/1-registro-para-no-cliente[m[33m)[m
+Author: Leonardo Caycho <leonardo_caycho@usmp.pe>
+Date:   Tue Sep 26 20:06:18 2023 -0500
+
+    Revert "CONTACTO"
+    
+    This reverts commit a0a68161308096bcc1ee541dcdba7d6d8d315a34.
+
+[33mcommit a0a68161308096bcc1ee541dcdba7d6d8d315a34[m
+Author: Leonardo Caycho <leonardo_caycho@usmp.pe>
+Date:   Tue Sep 26 19:02:44 2023 -0500
+
+    CONTACTO
+
+[33mcommit d55a45db35e45aebb52a0a88a45140be681f9566[m[33m ([m[1;31morigin/catalogo-y-detalle-de-productos[m[33m, [m[1;31morigin/9-pagina-de-bienvenida[m[33m, [m[1;32mmain[m[33m, [m[1;32mcatalogo-y-detalle-de-productos[m[33m)[m
+Author: Leonardo Caycho <leonardo_caycho@usmp.pe>
+Date:   Wed Aug 30 19:32:12 2023 -0500
+
+    Version codigo fuente
